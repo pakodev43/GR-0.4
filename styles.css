@@ -583,9 +583,13 @@ button {
 .social_link {
     margin: 0 .1rem;
     padding: 1.1rem 1rem .7rem 1rem;
-    padding: .8rem .95rem .6rem .95rem;
+    padding: .55rem .57rem .23rem .60rem;
     border-radius: 50%;
     background-color: var(--clr-primary-light);
+    
+    @media (min-width: 57.625rem) {
+        padding: .8rem .95rem .6rem .95rem;
+    }
 }
 
 .social_link svg {
@@ -593,6 +597,10 @@ button {
     height: 1.2rem;
     height: 1rem;
     aspect-ratio: 1/1;
+    
+    @media (min-width: 57.625rem) {
+        height: 1rem;
+    }
 }
 
 .social_link svg path {
